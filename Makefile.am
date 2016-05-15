@@ -1,7 +1,7 @@
 EXTRA_DIST = autogen.sh ceph.spec ceph.spec.in install-deps.sh ceph README.md
 
 docdir = ${datadir}/doc/ceph
-doc_DATA = README.md
+doc_DATA = README
 
 bin_SCRIPTS = ceph
 
