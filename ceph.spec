@@ -7,6 +7,7 @@ License:	LGPL-2.1 and CC-BY-SA-1.0 and GPL-2.0 and BSL-1.0 and GPL-2.0-with-auto
 URL:		http://ceph.com/
 Source0:	http://ceph.com/download/%{name}-%{version}.tar.bz2
 BuildRequires: automake
+BuildRequires: make
 
 %description
 Ceph is a massively scalable, open-source, distributed storage system that runs
@@ -278,7 +279,7 @@ License:	LGPL-2.0
 This package contains the Java libraries for the Ceph File System.
 
 %files
-/usr/share/doc/ceph/README.md
+/usr/share/doc/ceph/README
 %{_bindir}/ceph
 
 %files base
